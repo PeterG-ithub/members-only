@@ -1,0 +1,3 @@
+<h1>Welcome <%= current_user.username %> to the Tarot Club</h1>
+
+<%= link_to "Sign out", destroy_user_session_path, data: { turbo_method: :delete } %>
